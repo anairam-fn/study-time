@@ -28,6 +28,7 @@
     2.2. Big O Notation;
 
     2.3. Estrutura de dados;
+    
         2.3.1. Linked lists, hash, hash maps, trees
 
 3. Backend
