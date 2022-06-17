@@ -17,9 +17,11 @@
 
     1.4. Paradigmas de programação;
 
-    1.5. Programação Orientada a Objeto;
+    1.5. Programação Orientada a Objeto (POO);
 
-    1.6. POO vs PF;
+    1.6. Unified Modeling Language (UML)
+
+    1.7. POO vs PF;
 
 2. Programming Skills
 
