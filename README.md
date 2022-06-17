@@ -6,6 +6,7 @@
 <h3 align="center">  Repo com anotações de conteúdos estudados 📖  </h3>
 <br>
 
+AHUSHAUHS
 
 1. Programming Fundamentals
 
