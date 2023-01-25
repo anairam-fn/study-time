@@ -56,5 +56,15 @@ Geração de um novo objeto a partir de uma classe.
 
 Conceito muito importante da POO, em que se representa somente os aspectos essenciais de um objeto.
 
+7. Visibilidade
+
+Indica o nível de acesso aos componesntes internos (atributos e métodos) de uma classe.
+
+(+) visibilidade **pública**: a classe atual e todas as outras classes podem ter acesso ao atributo ou método público.
+
+(-) visibilidade **privada**: somente a classe atual tem acesso a um atributo ou método privado.
+
+(#) visibilidade **protegida**: um atributo ou método protegido dá acesso a classe atual a todas as suas subclasses.
+
 
 POO com Java - https://www.cursoemvideo.com/curso/java-poo/
