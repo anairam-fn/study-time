@@ -24,3 +24,24 @@ public class Caneta {
     }
 }
 ```
+
+2. Método Construtor
+
+Recebe as propriedades que um objeto precisa ter ao ser instanciado a partir de uma classe.
+
+```java
+
+public class Caneta {
+    private String modelo;
+    private float ponta;
+    private boolean tampada;
+    private String cor;
+
+    public Caneta(String m, String c, float p) {   // método construtor tem o mesmo nome da classe
+        this.modelo = m;
+        this.cor = c;
+        this.ponta = p;
+        this.tampar();
+    }
+
+```
