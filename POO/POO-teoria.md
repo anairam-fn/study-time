@@ -66,5 +66,13 @@ Indica o nível de acesso aos componesntes internos (atributos e métodos) de um
 
 (#) visibilidade **protegida**: um atributo ou método protegido dá acesso a classe atual a todas as suas subclasses.
 
+8. Métodos especiais
+
+- **Métodos Acessores (Getters):** métodos que conseguem acessar algum atributo mantendo a segurança de acesso a ele.
+
+- **Métodos Modificadores (Setters):** métodos que modificam coisas que estão dentro do objeto, garantindo a segurança do atributo.
+
+- **Método Construtor (Construct):** recebe as propriedades que um objeto precisa ter ao ser instanciado a partir de uma classe.
+
 
 POO com Java - https://www.cursoemvideo.com/curso/java-poo/
