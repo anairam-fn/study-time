@@ -74,5 +74,23 @@ Indica o nível de acesso aos componesntes internos (atributos e métodos) de um
 
 - **Método Construtor (Construct):** recebe as propriedades que um objeto precisa ter ao ser instanciado a partir de uma classe.
 
+9. Encapsulamento
+
+Encapsular é ocultar partes independentes da implementação, permitindo construir partes invisíveis ao mundo exterior.
+
+A interação com a cápsula é chamada de "mensagem".
+
+- **Interface:** lista de serviços fornecidos por um componente. É o contato com o mundo exterior, que define o que pode ser feito com um objeto de uma classe. Canal de comunicação externa. É representada de forma parecida a de uma classe, mas não tem atributos. **Interface só possui métodos abstratos** - são métodos que não são desenvolvidos na interface .
+
+Um software encapsulado protege o código do usuário e o usuário do código.
+
+O encapsulamento é uma boa prática para produzir Classes mais eficiente.
+
+- **Vantagens em encapsular:**
+  - Tornar mudanças invisíveis;
+  - Facilitar reutilização do código;
+  - Reduzir efeito colaterais;
+
+Ao encapsular, os atributos de uma Classe devem ser, no mínimo, protegidos, **NUNCA** públicos.
 
 POO com Java - https://www.cursoemvideo.com/curso/java-poo/
