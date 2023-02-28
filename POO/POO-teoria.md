@@ -93,4 +93,31 @@ O encapsulamento é uma boa prática para produzir Classes mais eficiente.
 
 Ao encapsular, os atributos de uma Classe devem ser, no mínimo, protegidos, **NUNCA** públicos.
 
+10. Herança
+
+A herança permite basear uma nova classe na definicação de uma outra classe previamente existente e será aplicada tanto para características (propriedades) quanto para os comportamentos (métodos).
+
+Exemplo: seres humanos, gatos e pássaros (subclasses) são animais e poderiam herdar características e comportamentos de uma superclasse Animal.
+
+**Conceitos na Árvore Hierárquica:**
+- Raiz: classe que não tem superclasses.
+- Folha: subclasse que não tem subclasses.
+
+- Descendentes e Acestrais.
+
+- Especialização: percorrer a árvore de cima pra baixo.
+- Generalização: percorrer a árvore de baixo pra cima.
+
+**Tipos de Herança**
+
+- **Herança de Implementação:** uma classe filha herda todos os atributos e métodos de uma classe mãe e, em seguida, adiciona ou substitui os métodos necessários para implementar o comportamento exclusivo da classe filha.
+- **Herança para Diferença:** quando uma classe filha herda apenas uma parte dos atributos e métodos de uma classe mãe, e adiciona ou modifica a implementação dos atributos e métodos que não são herdados. Dessa forma, a classe filha tem alguns aspectos em comum com a classe mãe, mas é diferente o suficiente para justificar a criação de uma nova classe.
+
+**Abstrato e Final**
+
+- **Classe Abstrata:** não pode ser instanciada. Só pode servir como progenitora.
+- **Método Abstrato:** declarado, mas não implementado na progenitora. Só pode ser colocado dentro de uma interface ou de uma classe abstrato.
+- **Classe Final:** não pode ser herdada por outra classe. Obrigatoriamente folha, não pode ter "filhos".
+- **Método Final:** não pode ser sobrescrito pelas suas sub-classes. Obrigatoriamente herdado.
+
 POO com Java - https://www.cursoemvideo.com/curso/java-poo/
