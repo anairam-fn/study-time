@@ -17,7 +17,7 @@
 
     1.4. Paradigmas de programação;
 
-    1.5. Programação Orientada a Objeto (POO);
+    1.5. Programação Orientada a Objeto (POO); :white_check_mark:
 
     1.6. Unified Modeling Language (UML)
 
