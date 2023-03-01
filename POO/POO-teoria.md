@@ -120,4 +120,28 @@ Exemplo: seres humanos, gatos e pássaros (subclasses) são animais e poderiam h
 - **Classe Final:** não pode ser herdada por outra classe. Obrigatoriamente folha, não pode ter "filhos".
 - **Método Final:** não pode ser sobrescrito pelas suas sub-classes. Obrigatoriamente herdado.
 
+11. Polimorfismo
+
+Permite que um mesmo nome represente vários comportamentos diferentes.
+
+- Assinatura do método: identificada pela ***quantidade*** e pelos ***tipos*** de parâmetros.
+
+```java
+public float calcMedia(float n1, float n2) {
+  return x
+}
+
+public int calcMedia(float v1, float v2) {
+  return x
+}
+```
+
+Os métodos acima possuem a mesma assinatura, mesmo retornando valores diferentes e tendo o nome dos parâmetros diferentes.
+
+- Tipos de polimorfismo
+
+a) Sobreposição: acontece quando **substituímos** um método de uma superclasse na sua subclasse usando a **mesma assinatura**.
+
+b) Sobrecarga: quando uma classe tem dois ou mais métodos com o mesmo nome, mas com parâmetros diferentes (**assinaturas diferentes**), permitindo que a classe possa executar uma mesma ação com diferentes tipos de dados.
+
 POO com Java - https://www.cursoemvideo.com/curso/java-poo/
